@@ -1,0 +1,20 @@
+for manager
+1 login/logout
+2 inventory
+3 manage_inventory
+4 manage order
+5 production 
+6 report
+7 upload product
+8 users
+8 admin
+
+
+
+for cusrtomer 
+1 add_to_cart
+2 login
+3 cart
+4 index
+
+6 products
