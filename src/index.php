@@ -1,9 +1,9 @@
 <?php
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
 session_start();
-$conn = new mysqli("localhost", "root", "", "smart_step_db");
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
+include('db.php');
 
 $products = $conn->query("SELECT * FROM products LIMIT 8");
 ?>

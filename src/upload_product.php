@@ -1,5 +1,5 @@
+<?php include('db.php'); ?>
 <?php
-$conn = new mysqli("localhost", "root", "", "smart_step_db");
 
 $edit = false;
 $product = [

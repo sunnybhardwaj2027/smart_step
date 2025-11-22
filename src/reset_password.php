@@ -1,6 +1,7 @@
+<?php include('db.php'); ?>
+
 <?php
 session_start();
-$conn = new mysqli("localhost", "root", "", "smart_step_db");
 
 if (!isset($_SESSION['otp_verified']) || !isset($_SESSION['email'])) {
     header("Location: forgot_password.php");

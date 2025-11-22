@@ -1,6 +1,6 @@
+<?php include('db.php'); ?>
 <?php
 session_start();
-$conn = new mysqli("localhost", "root", "", "smart_step_db");
 
 if (!isset($_SESSION['user_id'])) {
     header("Location: login.php");

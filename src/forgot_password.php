@@ -1,6 +1,7 @@
+<?php include('db.php'); ?>
+
 <?php
 session_start();
-$conn = new mysqli("localhost", "root", "", "smart_step_db");
 
 // Check DB Connection
 if ($conn->connect_error) {
